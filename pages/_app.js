@@ -8,11 +8,11 @@ import { hotjar } from 'react-hotjar'
 import * as ga from '../utils/ga'
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter()
+  const router = useRouter() 
 
   useEffect(() => { 
-    const handleRouteChange = (url) => {
-     // ga.pageview(url)
+    const handleRouteChange = (url) => { 
+     // ga.pageview(url) 
     }
     hotjar.initialize(2688484, 6)
     //When the component is mounted, subscribe to router changes
