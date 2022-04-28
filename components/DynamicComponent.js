@@ -24,9 +24,13 @@ import EmailOptin from './EmailOptin'
 import TwoCol from './TwoCol'
 import Title from './Title'
 import TopMovies from './TopMovies'
+import Book from './Book'
 
 // mappings (name in storyblok vs js file)
+// TODO: add new entry for each new type
+
 const Components = {
+  'book': Book,
   'teaser': Teaser,
   'grid': Grid,
   'feature': Feature,
