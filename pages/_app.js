@@ -10,9 +10,9 @@ import * as ga from '../utils/ga'
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleRouteChange = (url) => {
-      ga.pageview(url)
+     // ga.pageview(url)
     }
     hotjar.initialize(2688484, 6)
     //When the component is mounted, subscribe to router changes
