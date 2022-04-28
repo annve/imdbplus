@@ -25,6 +25,7 @@ import TwoCol from './TwoCol'
 import Title from './Title'
 import TopMovies from './TopMovies'
 
+// mappings (name in storyblok vs js file)
 const Components = {
   'teaser': Teaser,
   'grid': Grid,
@@ -34,7 +35,7 @@ const Components = {
   'post': BlogPost,
   'text': Text,
   'selected-posts': PostsList,
-  'movie': Movie,
+  'movie': Movie,  // 'movie": technical name in Storyblok. Om deze weer te geven gebruik je Movie.js
   'personality': Personality,
   'studio': Studio,
   'genre' : Genre,
